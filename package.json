@@ -1,0 +1,14 @@
+{
+  "name": "graphics",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "sh deploy.sh",
+    "build": "vuepress build docs",
+    "dev": "vuepress dev docs"
+  },
+  "dependencies": {
+    "vuepress": "^1.2.0"
+  }
+}
